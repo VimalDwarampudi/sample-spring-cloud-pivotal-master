@@ -1,0 +1,10 @@
+server:  
+  port: ${PORT:8080}
+
+spring:  
+  application:
+  name: customer-service
+  
+security:
+  basic:
+    enabled: false

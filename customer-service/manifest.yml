@@ -1,0 +1,5 @@
+applications: 
+- name: customer-service.com
+  memory: 999M
+  instances: 1
+  path : target/customer-service-1.0-SNAPSHOT.jar
